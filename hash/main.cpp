@@ -9,7 +9,7 @@ using namespace std;
 
 int main() {
     string hsh, msg, result, result1;
-    FileSource("/home/stud/C++Projects/CryptoProg/test", true, new StringSink(msg));
+    FileSource("/home/stud/C++Projects/CryptoProg/hash/test", true, new StringSink(msg));
     msg.resize(msg.size() - 1);
     cout << "Текст: " << msg << endl;
     HexEncoder encoder(new StringSink(result));
