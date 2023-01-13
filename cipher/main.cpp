@@ -13,7 +13,7 @@ using namespace std;
 
 int main() {
     string mode, input_file_string, output_file_string, pass;
-    cout << "Введите режим шифрования(encrypt или decrypt): ";
+    cout << "Введите режим шифрования(e или de): ";
     cin >> mode;
     if (mode != "e" && mode != "de") {
         cerr << "Такой команды нет" << endl;
